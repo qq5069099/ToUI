@@ -4,7 +4,7 @@
 
 Windows 10 / 11 x64 · 免安装 · 手机号登录，首次登录自动开始试用
 
-**下载：** [打开 Releases 页面](https://github.com/qq5069099/ToUI/releases)（也可直接下载本仓库的 [windows-toui-1.1.18.zip](windows-toui-1.1.18.zip) 与 [.sha256](windows-toui-1.1.18.zip.sha256)）
+**下载：** [打开 Releases 页面](https://github.com/qq5069099/ToUI/releases)（也可直接下载本仓库的 [windows-toui-1.1.19.zip](windows-toui-1.1.19.zip) 与 [.sha256](windows-toui-1.1.19.zip.sha256)）
 
 [下载与安装](#下载与安装) · [快速上手](#快速上手) · [功能一览](#功能一览) · [图层命名与标注](#图层命名与标注) · [发布规则与产物](#发布规则与产物) · [操作速查](#操作速查) · [会员与激活](#会员与激活) · [常见问题](#常见问题) · [隐私](#隐私)
 
@@ -12,15 +12,15 @@ Windows 10 / 11 x64 · 免安装 · 手机号登录，首次登录自动开始�
 
 安装包发布在本仓库的 [Releases](https://github.com/qq5069099/ToUI/releases) 页面；本仓库根目录也保留同一版本 zip，方便直接下载。通过购买渠道购买的用户，也可以使用渠道提供的安装包。
 
-1. 打开 [Releases 页面](https://github.com/qq5069099/ToUI/releases)，在最新版本下方下载 `windows-toui-1.1.18.zip` 和同名的 `.sha256` 校验文件；也可以直接下载本仓库根目录的同一文件。如果页面有多个渠道包，请选择与你购买渠道对应的一个。**不要下载 `Source code (zip)` 或 `Source code (tar.gz)`**，它们不是安装包。
+1. 打开 [Releases 页面](https://github.com/qq5069099/ToUI/releases)，在最新版本下方下载 `windows-toui-1.1.19.zip` 和同名的 `.sha256` 校验文件；也可以直接下载本仓库根目录的同一文件。如果页面有多个渠道包，请选择与你购买渠道对应的一个。**不要下载 `Source code (zip)` 或 `Source code (tar.gz)`**，它们不是安装包。
 2. 可选：在下载目录打开命令行，核对文件完整：
 
    ```bash
-   certutil -hashfile windows-toui-1.1.18.zip SHA256
+   certutil -hashfile windows-toui-1.1.19.zip SHA256
    ```
 
    输出应与 `.sha256` 文件中的值一致。
-3. 解压到任意目录（路径可以包含中文），双击 `toui-1.1.18\ToUI.exe` 启动。
+3. 解压到任意目录（路径可以包含中文），双击 `toui-1.1.19\ToUI.exe` 启动。
 4. 输入手机号并获取短信验证码，登录后即可使用；首次登录自动开始试用。
 
 **免安装**：不需要安装其他组件，删除整个文件夹即可卸载。
